@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class InvoiceManager {
-    private List<Invoice> invoices;
+    private final List<Invoice> invoices;
 
     public InvoiceManager() {
         this.invoices = new ArrayList<>();
